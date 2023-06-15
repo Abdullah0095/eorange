@@ -3,11 +3,19 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+
   ],
   theme: {
     extend: {},
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: false, 
+    darkTheme: "light", 
+    base: true, 
+    styled: true, 
+    utils: true, 
+    rtl: false, 
+    logs: true, 
+  },
 }
