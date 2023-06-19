@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import image1 from "../../../assets/image/home-pic-1.jpg";
 import image2 from "../../../assets/image/home-pic-2.jpg";
 import image3 from "../../../assets/image/home-pic-3.jpg";
@@ -16,7 +17,7 @@ const PlantSellBanner = () => {
               <button className="btn btn-accent">See more --</button>
             </div>
             <div>
-              <img src={image1} alt="" />
+              <Link to="/"><img src={image1} alt="" /></Link>
               <p className="py-1 text-xl mt-3">Natural Plants</p>
               <p className="text-gray-600 text-xl">25$</p>
             </div>

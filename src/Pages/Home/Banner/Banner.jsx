@@ -23,7 +23,7 @@ export const Banner = () => {
                   </div>
                 </div>
               </p>
-              <button className="btn btn-primary">change to input here</button>
+              <button className="btn btn-accent">change to input here</button>
             </div>
             <img
               src={bannerImage}
