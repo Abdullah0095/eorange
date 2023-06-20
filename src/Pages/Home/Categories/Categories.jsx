@@ -14,23 +14,29 @@ const Categories = () => {
                     <div className="hero-content px-5 flex-col lg:flex-row">
 
                         <div>
-                            <img src={natural} alt="natural-image" 
-                            className='w-[300px] h-[400px] rounded-md mx-10 -mt-24' />
+                            <img src={natural} alt="natural-image"
+                                className='w-[300px] h-[400px] rounded-md mx-10 md:-mt-24' />
                             <h3 className='text-center py-3 text-xl font-semibold'>Natural Plant</h3>
                         </div>
-                        <div className='mt-5'> 
+                        <div>
                             <img src={accessories} alt="natural-image"
-                             className='w-[300px] h-[400px] rounded-md mx-10 ' />
+                                className='w-[300px] h-[400px] rounded-md mx-10 md:mt-5' />
                             <h3 className='text-center py-3 text-xl font-semibold'>Plant accessories</h3>
                         </div>
                         <div>
-                            <img src={artificial} alt="natural-image" 
-                             className='w-[300px] h-[400px] rounded-md mx-10 -mt-24'/>
-                            <h3 className='text-center py-3 text-xl font-semibold'>Artificial Plant</h3>
+                            <img src={artificial} alt="natural-image"
+                                className='w-[300px] h-[400px] rounded-md mx-10 md:-mt-24' />
+                                <h3 className='text-center py-3 text-xl font-semibold'>Artificial Plant</h3>
                         </div>
-                    </div>
+                    </div>     
                 </div>
             </div>
+            <div className='bg-green-200 text-center py-5'>
+                <p className='text-xl py-2'>Would like to watch our green gallary</p>
+                <button className="btn btn-outline btn-accent">Explore →</button>
+
+            </div>
+                
         </section>
     </>
 }
